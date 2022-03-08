@@ -32,11 +32,11 @@
 }
 
 primary-link:hover {
-  color: var(--text-color);
+  color: var(--hero-colorcolor);
 }
 
 secondary-link:hover {
-  color: var(--text-color);
+  color: var(--hero-color);
 }
 
 secondary-link {
@@ -94,7 +94,9 @@ secondary-link {
   }
 
   p {
-    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
   }
 
   img {
@@ -187,6 +189,6 @@ p {
 }
 
 .btn-branding:hover {
-  color: var(--text-color);
-  background-color: var(--secondary-color);
+  color: var(--hero-color);
+  background: var(--hero-text-color);
 }
