@@ -1,22 +1,14 @@
 :root {
-  --primary-color: #2d296b;
-  --secondary-color: #6350a0;
-  --hero-color: #eeeeee;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #efecc6;
+  --secondary-color: #efecc6;
+  --hero-color: #13343b;
+  --text-color: #efecc6;
+  --fourth-color: #13343b;
+  --hero-text-color: #efecc6;
+  --background-color: #e8f0ef;
+  --box-shadow: 0 5px 10px #0f161b;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-}
-
-.second-color {
-  background: #7971ea;
-}
-
-.third-color {
-  background: #393e46;
-}
-
-.fourth-color {
-  background: #222831;
 }
 
 .navigation-links {
@@ -36,15 +28,15 @@
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--text-color);
 }
 
 primary-link:hover {
-  color: white;
+  color: var(--text-color);
 }
 
 secondary-link:hover {
-  color: white;
+  color: var(--text-color);
 }
 
 secondary-link {
@@ -52,20 +44,22 @@ secondary-link {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--primary-color);
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--text-color);
   border: 1px solid var(--primary-color);
 }
 
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--text-color);
 }
 
 .about-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--text-color);
 }
 
 .about-paragraphs {
@@ -116,15 +110,13 @@ secondary-link {
 body {
   margin: 100px 0;
   font-family: var(--default-font-family);
+  background: var(--background-color);
 }
 
-h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: var(--fourth-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -161,6 +153,7 @@ p {
   background: var(--hero-color);
   text-align: center;
   padding: 160px 20px;
+  color: var(--text-color);
 }
 
 .hero p {
@@ -177,13 +170,23 @@ p {
 .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
-  color: white;
+  color: var(--hero-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  background: var(--fourth-color);
+  border: 1px solid;
+  border-radius: 4px;
+  color: var(--hero-text-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .btn-branding:hover {
-  color: white;
+  color: var(--text-color);
   background-color: var(--secondary-color);
 }
