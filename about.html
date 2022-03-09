@@ -25,10 +25,14 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/d06ce17493.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/app.css" />
     <title>Ann McGlone - Front-end Developer</title>
   </head>
-  <body>
+  <body class="about-page">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/" title="homepage"
@@ -64,35 +68,53 @@
         </div>
       </div>
     </nav>
-    <h1>About me</h1>
-    <h3>Front-end developer from Indiana, USA</h3>
-    <div class="about-paragraphs text-center">
-      <p class="text-muted">
-        By day, I am the business manager of a Law Firm. After 5 pm, I am a
-        Front-end developer, coding my way into new lands. I studied Linguistics
-        in college and taught English abroad. I have always had a passion for
-        languages, but coding has taken this love to a new level. My next goal
-        is to learn Back-end development as well.
-        <br />
-      </p>
+    <div class="about-section container">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="text-center">Let me introduce myself</h2>
+          <h1 class="text-center">Hi, I'm Ann McGlone</h1>
+          <div class="about-paragraphs text-center">
+            <p class="mb-3">
+              By day, I am the business manager of a Law Firm. After 5 pm, I am
+              a Front-end developer, coding my way into new lands. I studied
+              Linguistics in college and after I graduated in 2015, I taught
+              English abroad. I have always had a passion for languages, but
+              coding has taken this love to a new level. My next goal is to
+              learn Back-end development as well.
+              <br />
+            </p>
+            <p class="mb-5">
+              My current role presented a need to learn more about Marketing. I
+              filled this need for the business. Once I saw the opportunity to
+              learn to code, I jumped at the chance. I am thrilled with the
+              projects I have created. Learning to code has given me much
+              insight into Marketing, Web Applications, and Design.
+            </p>
+            <a href="#" class="btn btn-branding">See my Projects</a>
+          </div>
+        </div>
+        <div class="col-6 portrait">
+          <img src="images/me.png" alt="Ann McGlone" />
+        </div>
+      </div>
     </div>
     <div class="container">
       <div class="row mb-5">
-        <div class="col-sm-4">
+        <div class="col d-none d-lg-block">
           <img
             src="/images/mapleTrees.png"
             class="img-fluid p-2 shadow rounded"
             alt="mapleTrees project"
           />
         </div>
-        <div class="col-sm-4">
+        <div class="col d-none d-lg-block">
           <img
             src="/images/weatherAppC.png"
             class="img-fluid p-2 shadow rounded"
             alt="weather project"
           />
         </div>
-        <div class="col-sm-4">
+        <div class="col d-none d-lg-block">
           <img
             src="/images/lonelyBat-books.png"
             class="img-fluid p-2 shadow rounded"
@@ -102,7 +124,7 @@
       </div>
     </div>
     <div id="contact">
-      <h2>📮 Contact me</h2>
+      <h3>📮 Contact me</h3>
       <a href="mailto:ann.mcglon@gmail.com" class="email-link" title="email ann"
         >ann.mcglon@gmail.com</a
       >
