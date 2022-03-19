@@ -58,7 +58,7 @@
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -194,10 +194,6 @@ p {
 }
 
 @media (max-width: 900px) {
-  .hero {
-    padding: 80px 20px;
-  }
-
   h1 {
     font-size: 44px;
     line-height: 1.5;
@@ -207,11 +203,16 @@ p {
     font-size: 44px;
   }
 
+  .hero {
+    padding: 80px 20px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
   }
   .about-section {
+    text-align: center;
     padding: 0;
   }
 }
