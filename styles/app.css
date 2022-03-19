@@ -1,9 +1,7 @@
 :root {
   --primary-color: #efecc6;
   --secondary-color: #13343b;
-  --hero-color: #13343b;
   --text-color: #efecc6;
-  --hero-text-color: #efecc6;
   --background-color: #e8f0ef;
   --box-shadow: 0 5px 10px #0f161b;
   --heading-font-family: "Playfair Display", serif;
@@ -27,11 +25,11 @@
 }
 
 .primary-link:hover {
-  color: var(--hero-color);
+  color: var(--secondary-color);
 }
 
 .secondary-link:hover {
-  color: var(--hero-color);
+  color: var(--secondary-color);
 }
 
 .secondary-link {
@@ -113,7 +111,7 @@ p {
 }
 
 .hero {
-  background: var(--hero-color);
+  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
   color: var(--text-color);
@@ -122,6 +120,8 @@ p {
 .hero p {
   font-size: 36px;
   font-weight: bold;
+  margin: 0;
+  line-height: 1.5;
 }
 
 .hero h2 {
@@ -135,7 +135,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   border-radius: 4px;
-  color: var(--hero-color);
+  color: var(--secondary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -143,17 +143,17 @@ p {
 
 .btn-branding-outline {
   background: var(--secondary-color);
-  border: 1px solid var(--hero-text-color);
+  border: 1px solid var(--text-color);
   border-radius: 4px;
-  color: var(--hero-text-color);
+  color: var(--text-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .btn-branding:hover {
-  color: var(--hero-color);
-  background: var(--hero-text-color);
+  color: var(--secondary-color);
+  background: var(--text-color);
 }
 
 .project-description {
