@@ -1,8 +1,9 @@
 :root {
-  --primary-color: #efecc6;
-  --secondary-color: #13343b;
-  --text-color: #efecc6;
-  --background-color: #e8f0ef;
+  --primary-color: #adb5bd;
+  --secondary-color: #507852;
+  --text-color: #e7e7e7;
+  --background-color: #e9e8e8;
+  --hero-color: #415743;
   --box-shadow: 0 5px 10px #0f161b;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -24,15 +25,15 @@
   box-shadow: var(--box-shadow);
   padding: 25px;
   background: var(--secondary-color);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .primary-link:hover {
-  color: var(--background-color);
+  color: var(--text-color);
 }
 
 .secondary-link:hover {
-  color: var(--background-color);
+  color: var(--text-color);
 }
 
 .secondary-link {
@@ -41,17 +42,17 @@
   box-shadow: var(--box-shadow);
   padding: 25px;
   background: var(--secondary-color);
-  color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: var(--text-color);
 }
 
 .about-link {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: var(--text-color);
 }
@@ -86,14 +87,6 @@ body {
   background: var(--background-color);
 }
 
-h4,
-h5,
-h6 {
-  color: var(--secondary-color);
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-}
-
 h1,
 h2,
 h3 {
@@ -124,7 +117,7 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: var(--hero-color);
   text-align: center;
   padding: 160px 20px;
   color: var(--text-color);
@@ -145,10 +138,10 @@ p {
 }
 
 .btn-branding {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   border-radius: 4px;
-  color: var(--secondary-color);
+  color: var(--text-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -156,7 +149,7 @@ p {
 
 .btn-branding-outline {
   background: var(--secondary-color);
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--primary-color);
   border-radius: 4px;
   color: var(--text-color);
   font-size: 18px;
@@ -174,8 +167,8 @@ p {
 }
 
 .about-page {
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--background-color);
+  color: var(--secondary-color);
 }
 
 .content-container {
