@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #adb5bd;
+  --primary-color: #d7dbdf;
   --secondary-color: #507852;
   --text-color: #e7e7e7;
   --background-color: #e9e8e8;
@@ -114,6 +114,7 @@ p {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  background-color: var(--primary-color);
 }
 
 .hero {
