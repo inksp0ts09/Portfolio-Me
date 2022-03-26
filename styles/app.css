@@ -72,12 +72,12 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 48px;
   opacity: 0.7;
 }
 
 h4 {
-  font-size: 48px;
+  font-size: 24px;
 }
 
 p {
@@ -112,10 +112,14 @@ footer .contact-box p {
   margin: 0;
 }
 
+footer p {
+  background-color: var(--background-color);
+}
+
 .hero {
   background: var(--hero-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
   color: var(--text-color);
 }
 
@@ -160,7 +164,7 @@ footer .contact-box p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -240,10 +244,6 @@ footer .social-links a:hover {
 
   h4 {
     font-size: 18px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .project-description {
